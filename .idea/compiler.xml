@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="flume" />
+        <module name="logger" />
+        <module name="mock" />
+        <module name="shell" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="flume" target="1.8" />
+      <module name="gmall_DW" target="1.8" />
+      <module name="logger" target="1.8" />
+      <module name="mock" target="1.8" />
+      <module name="shell" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
